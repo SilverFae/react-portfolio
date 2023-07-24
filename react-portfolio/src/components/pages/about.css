@@ -1,0 +1,17 @@
+.about-container{
+    background-color: rgb(159, 229, 169);
+}
+.prof{
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+   font-family: Garamond;
+}
