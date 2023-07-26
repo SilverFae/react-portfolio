@@ -10,6 +10,10 @@
     display: flex;
     border-radius: 5px;
     background-color: rgb(199, 201, 238);
+    border-width: 2em;
+    border-style: solid;
+    border-color:  rgb(100, 103, 168);
+    
     width: 100%;
     height: 100%;
     text-align: center;
@@ -24,6 +28,8 @@
     justify-content: center;
     min-height: 30vh;
     background-size: cover;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 .contact-title{
   font-size: 6em;
@@ -32,21 +38,12 @@
   color: #cabbd6; 
   text-align: center;
   position: absolute; 
-  top: 35%; 
+  top: 30%; 
   left: 50%; 
-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-family: serif;
   text-shadow: 2px 2px 4px #4b022f;
 }
 .contact-container  {
   position: relative;
 }
-
-
-@media screen and (max-width: 600px) {
-    .contact-title {
-      font-size: 3em; /* Adjust font size for smaller screens */
-      top: 30%; /* Adjust vertical position for smaller screens */
-      left: 50%; /* Adjust horizontal position for smaller screens */
-    }
-  }
