@@ -1,19 +1,20 @@
 import React from 'react';
-
+import "./style/nav.css"
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
 
+        <div className = "nav-container">
         <ul className="nav nav-tabs">
-            <div className="userIn">
+        <div className="userIn">
                 <h1>Shannon Hogeboom</h1>
             </div>
             <li className="nav-item">
                 <a
-                    href="#aboutMe"
-                    onClick={() => handlePageChange('Home')}
+                    href="#about"
+                    onClick={() => handlePageChange('About')}
                     className={currentPage === 'About' ? 'nav-link-active' : 'nav-link'}>
-                    About
+                    About Me
                 </a>
             </li>
             <li className="nav-item">
@@ -41,6 +42,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 </a>
             </li>
         </ul>
+        </div>
     );
 }
 
