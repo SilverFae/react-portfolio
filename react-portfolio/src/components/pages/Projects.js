@@ -10,7 +10,7 @@ export default function Projects() {
     <div className="project-container">
       <img src={back} alt="not available" className="back" />
       <h1 className="project-title">Projects</h1>
-
+    
       <div className="image-container">
         <div className="project-image">
           <a href="http://bookwormy.herokuapp.com/">
